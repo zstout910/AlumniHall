@@ -49,8 +49,10 @@
             border: 5px solid var(--secondary-color);
             font-family: var(--font-family);
             font-size: 30px;
-            text-align: center;
+            text-align: left;
   }
+
+  
   
   .search-bar form :hover {
     background: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 100%);
@@ -67,7 +69,7 @@
     text-align: center;
     background-color: var(--accent-color);
     font-family: var(--font-family);
-    font-style: bold;
+    font-weight: bolder;
   }
 
 
@@ -106,7 +108,7 @@
   /* Carousel controls */
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
-    background-color: black;
+    background-color: var(--secondary-color);
     border-radius: 50%;
     padding: 1rem;
   }
@@ -174,6 +176,12 @@
   
     h2 {
       font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .large-carousel {
+      margin-top: 50px;
     }
   }
   
