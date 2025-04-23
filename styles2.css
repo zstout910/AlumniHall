@@ -64,6 +64,9 @@
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 50px;
+    flex-wrap: wrap; /* optional if you want wrapping on tiny screens */
+    gap: 10px;
+    justify-content: center;
     
   }
 
@@ -71,6 +74,7 @@
     text-align: center;
     font-family: var(--font-family);
     font-weight: bolder;
+    font-size: large;
   }
 
 
