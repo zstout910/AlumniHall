@@ -16,6 +16,7 @@
     
     color: var(--text-color);
   }
+  
 
   .announcement-bar {
     background-color: var(--primary-color);
@@ -41,6 +42,7 @@
 
   .search-bar form {
     font-family: var(--font-family);
+   
   }
 
   .search-bar form input{
@@ -50,8 +52,11 @@
             font-family: var(--font-family);
             font-size: 30px;
             text-align: left;
+            
   }
 
+
+  
   
   
   .search-bar form :hover {
@@ -63,11 +68,11 @@
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 50px;
+    
   }
 
   .nav-item {
     text-align: center;
-    background-color: var(--accent-color);
     font-family: var(--font-family);
     font-weight: bolder;
   }
@@ -139,7 +144,7 @@
   }
   .team-card {
     border: var(--primary-color) 6px solid;
-    border-radius: 15%;
+    border-radius: 20px;
   }
   .team-card:hover {
     transform: scale(1.03);
@@ -184,4 +189,6 @@
       margin-top: 50px;
     }
   }
+
+ 
   

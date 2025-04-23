@@ -1,0 +1,116 @@
+:root {
+    --primary-color: #C30F2D;
+    --secondary-color: #99958e;
+    --hover-color: #666460;
+    --accent-color: #fff;
+    --text-color: #111827;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background: url(https://m.gettywallpapers.com/wp-content/uploads/2022/06/Georgia-Bulldogs-Wallpaper-4k.jpg);
+    background-size: 100vw 200vh;
+    color: var(--text-color);
+  }
+
+  .announcement-bar {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    font-size: 0.95rem;
+    font-weight: 500;
+    font-family: var(--font-family);
+    border-radius: 0;
+  }
+  
+  
+
+  .navbar {
+    
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(195, 15, 45, 1) 100%);
+  }
+
+  .navbar-brand img {
+    height: 200px;
+    margin-bottom: -50px;
+  }
+
+  .search-bar form {
+    font-family: var(--font-family);
+   
+  }
+
+  .search-bar form input{
+            border-radius: 50px;
+            padding: 10px;
+            border: 5px solid var(--secondary-color);
+            font-family: var(--font-family);
+            font-size: 30px;
+            text-align: left;
+            
+  }
+
+
+  
+  
+  
+  .search-bar form :hover {
+    background: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 100%);
+  }
+  .nav-holder {
+    border: var(--secondary-color) 5px solid;
+    background-color: var(--accent-color);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    
+  }
+
+  .nav-item {
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: bolder;
+  }
+
+
+  .nav-item :hover{
+    background: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 100%);
+  }
+
+
+  .full-width-image {
+    width: 100%;
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes small bottom gap caused by inline images */
+    margin: 0;
+    padding: 0;
+    border-bottom: var(--accent-color) 7px solid;
+  }
+
+  .card-top {
+    border: var(--primary-color) 6px solid;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: larger;
+  }
+  .card-img-top {
+    border-radius: 25px
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+    transition: transform 0.2s ease;
+  }
+  
+  .section-title {
+    border: var(--accent-color) 6px solid;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    padding: 10px;
+  }
+
+  .footer {
+    background-color: var(--primary-color);
+  }
