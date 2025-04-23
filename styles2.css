@@ -111,6 +111,16 @@
     padding: 10px;
   }
 
+  .nav-holder {
+    flex-wrap: wrap; /* optional if you want wrapping on tiny screens */
+    gap: 10px;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 8px 12px;
+  }
+  
+
   .footer {
     background-color: var(--primary-color);
   }

@@ -31,35 +31,49 @@
 <nav class="navbar navbar-expand-lg navbar-light position-relative">
     <div class="container-fluid">
       <!-- Brand Logo -->
-      <a class="navbar-brand me-3" href="#">
+      <a class="navbar-brand me-3 d-none d-lg-block" href="#">
         <img 
           src="https://www.alumnihall.com/cms/default/assets/Image/logo.png" 
           alt="Brand Logo" 
           style="height: 200px; margin-bottom: -100px;"
-        ></a>
+        >
+      </a>
+
+       <!-- Small Logo for Mobile -->
+    <a class="d-block d-lg-none text-end mb-3 pe-3" href="#">
+      <img 
+      src="https://www.alumnihall.com/cms/default/assets/Image/logo.png" 
+      alt="Mobile Logo" 
+      style="height: 80px;"
+      >
+    </a>
   
-      <!-- Toggle Button for Mobile -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
       
       <!-- Truly Centered Search Bar -->
        <div class="search-bar">
-      <form class="position-absolute top-50 start-50 translate-middle d-none d-lg-flex" style="width: auto; height:50%;">
+      <form class="position-absolute top-50 start-50 translate-middle d-none d-lg-flex" style="width: 25%; height:50%;">
         <input class="form-control" type="search" placeholder="&#xf002; Search..." aria-label="Search" style="font-family:Arial, FontAwesome">
       </form>
     </div>
+
   
-      <!-- Nav Links -->
-      <div class="collapse navbar-collapse justify-content-end me-4" id="navbarNav">
-        <ul class="navbar-nav nav-holder">
-          <li class="nav-item"><a class="nav-link" href="#teams"><i class="fa-solid fa-trophy"></i> Teams</a></li>
-          <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-star"></i> Rewards</a></li>
-          <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-credit-card"></i> Gift Cards</a></li>
-          <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-user"></i> Account</a></li>
-          <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
-        </ul>
-      </div>
+  <!-- Nav Links -->
+    <div class="navbar-collapse justify-content-end me-4 custom-nav-spacing">
+      <ul class="navbar-nav nav-holder d-flex flex-row">
+        <li class="nav-item"><a class="nav-link" href="#teams"><i class="fa-solid fa-trophy"></i> Teams</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-star"></i> Rewards</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-credit-card"></i> Gift Cards</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-user"></i> Account</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
+      </ul>
+    </div>
+ <!-- Mobile Search Bar (only shows on small screens) -->
+ <div class="search-bar w-60 d-block d-lg-none px-4 pt-3">
+  <form class="d-flex" style="width: 100%; height: 50px;">
+    <input class="form-control" type="search" placeholder="&#xf002; Search..." aria-label="Search" style="font-family:Arial, FontAwesome">
+  </form>
+</div>
+
 
     </div>
   </nav>
@@ -71,7 +85,7 @@
  
 
   <!-- New Arrivals Carousel -->
-   <div class="container mt-5">
+  <div class="carousel-container container-fluid px-0">
   <div class="large-carousel">
     <div id="newItemsCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner text-center">
