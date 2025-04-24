@@ -51,7 +51,10 @@
             
   }
 
-
+  .navbar-nav .nav-link {
+    padding: 8px 12px;
+  }
+  
   
   
   
@@ -61,20 +64,17 @@
   .nav-holder {
     border: var(--secondary-color) 5px solid;
     background-color: var(--accent-color);
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 10px;
     border-radius: 50px;
-    flex-wrap: wrap; /* optional if you want wrapping on tiny screens */
-    gap: 10px;
     justify-content: center;
-    
   }
 
-  .nav-item {
+   .nav-item {
     text-align: center;
     font-family: var(--font-family);
     font-weight: bolder;
-    font-size: large;
+    font-size: medium;
+    
   }
 
 
@@ -128,3 +128,5 @@
   .footer {
     background-color: var(--primary-color);
   }
+
+  

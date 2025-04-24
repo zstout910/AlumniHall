@@ -68,20 +68,17 @@
   .nav-holder {
     border: var(--secondary-color) 5px solid;
     background-color: var(--accent-color);
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 10px;
     border-radius: 50px;
-    flex-wrap: wrap; /* optional if you want wrapping on tiny screens */
-    gap: 10px;
     justify-content: center;
-    
   }
 
   .nav-item {
     text-align: center;
     font-family: var(--font-family);
     font-weight: bolder;
-    font-size: large;
+    font-size: medium;
+    
   }
 
 
@@ -208,6 +205,15 @@
     .large-carousel {
       margin: 0 auto;
       padding: 10px;
+    }
+  }
+
+  
+
+  @media (max-width: 768px) {
+    .promo-section img {
+      border-width: 5px; /* Smaller border on small screens */
+
     }
   }
  

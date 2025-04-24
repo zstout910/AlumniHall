@@ -28,10 +28,11 @@
   
   
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light position-relative">
-  <div class="container-fluid">
-    <!-- Brand Logo -->
-    <a class="navbar-brand me-3 d-none d-lg-block" href="index.html">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid align-items-center">
+    
+    <!-- Logo on the Left -->
+    <a class="navbar-brand d-none d-lg-block" href="index.html">
       <img 
         src="https://www.alumnihall.com/cms/default/assets/Image/AHBrandedLogos/UGA_FBLogo.png" 
         alt="Brand Logo" 
@@ -39,44 +40,59 @@
       >
     </a>
 
-     <!-- Small Logo for Mobile -->
-  <a class="d-block d-lg-none text-end mb-3 pe-3" href="index.html">
-    <img 
-    src="https://www.alumnihall.com/cms/default/assets/Image/AHBrandedLogos/UGA_FBLogo.png" 
-    alt="Mobile Logo" 
-    style="height: 80px;"
-    >
-  </a>
-
     
-    <!-- Truly Centered Search Bar -->
-     <div class="search-bar">
-    <form class="position-absolute top-50 start-50 translate-middle d-none d-lg-flex" style="width: 25%; height:50%;">
-      <input class="form-control" type="search" placeholder="&#xf002; Search..." aria-label="Search" style="font-family:Arial, FontAwesome">
-    </form>
-  </div>
 
+    <!-- Centered Search Bar -->
+    <div class=" search-bar d-none d-lg-flex mx-auto" style="width: 30%;">
+      <form class="d-flex w-100">
+        <input class="form-control" type="search" placeholder="&#xf002; Search..." aria-label="Search" style="font-family:Arial, FontAwesome">
+      </form>
+    </div>
 
-<!-- Nav Links -->
-  <div class="navbar-collapse justify-content-end me-4 custom-nav-spacing">
+   <!-- Nav Links on the Right -->
+   <div class="d-none d-lg-flex justify-content-end ms-auto">
     <ul class="navbar-nav nav-holder d-flex flex-row">
-      <li class="nav-item"><a class="nav-link" href="index.html#teams"><i class="fa-solid fa-trophy"></i> Teams</a></li>
       <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-star"></i> Rewards</a></li>
       <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-credit-card"></i> Gift Cards</a></li>
       <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-user"></i> Account</a></li>
       <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
     </ul>
   </div>
-<!-- Mobile Search Bar (only shows on small screens) -->
-<div class="search-bar w-60 d-block d-lg-none px-4 pt-3">
-<form class="d-flex" style="width: 100%; height: 50px;">
-  <input class="form-control" type="search" placeholder="&#xf002; Search..." aria-label="Search" style="font-family:Arial, FontAwesome">
-</form>
-</div>
 
+   <!-- Mobile Layout -->
+   <div class="d-block d-lg-none w-100">
+    <!-- Small Logo for Mobile -->
+    <div class="text-center">
+      <a href="index.html">
+        <img 
+          src="https://www.alumnihall.com/cms/default/assets/Image/AHBrandedLogos/UGA_FBLogo.png" 
+          alt="Mobile Logo" 
+          style="height: 80px;"
+        >
+      </a>
+    </div>
+    
+    <!-- Mobile Search -->
+    <div class="search-bar w-100 px-4 pt-3">
+      <form class="d-flex" style="width: 100%; height: 50px;">
+        <input class="form-control" type="search" placeholder="&#xf002; Search..." aria-label="Search" style="font-family:Arial, FontAwesome">
+      </form>
+    </div>
+
+    <!-- Mobile Nav Links -->
+    <div class="pt-2 text-center ">
+      <ul class="navbar-nav d-flex flex-row justify-content-center flex-wrap">
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-star"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-credit-card"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-user"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+      </ul>
+    </div>
+  </div>
 
   </div>
 </nav>
+
   <img src="https://www.alumnihall.com/cms/default/assets/Image/TeamBanners/UGA.png" alt="Banner" class="full-width-image">
 
   <!-- FAN FAVORITES -->

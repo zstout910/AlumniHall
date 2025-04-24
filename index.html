@@ -28,37 +28,29 @@
   
   
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light position-relative">
-    <div class="container-fluid">
-      <!-- Brand Logo -->
-      <a class="navbar-brand me-3 d-none d-lg-block" href="#">
-        <img 
-          src="https://www.alumnihall.com/cms/default/assets/Image/logo.png" 
-          alt="Brand Logo" 
-          style="height: 200px; margin-bottom: -100px;"
-        >
-      </a>
-
-       <!-- Small Logo for Mobile -->
-    <a class="d-block d-lg-none text-end mb-3 pe-3" href="#">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid align-items-center">
+    
+    <!-- Logo on the Left -->
+    <a class="navbar-brand d-none d-lg-block" href="#">
       <img 
-      src="https://www.alumnihall.com/cms/default/assets/Image/logo.png" 
-      alt="Mobile Logo" 
-      style="height: 80px;"
+        src="https://www.alumnihall.com/cms/default/assets/Image/logo.png" 
+        alt="Brand Logo" 
+        style="height: 200px; margin-bottom: -100px;"
       >
     </a>
-  
-      
-      <!-- Truly Centered Search Bar -->
-       <div class="search-bar">
-      <form class="position-absolute top-50 start-50 translate-middle d-none d-lg-flex" style="width: 25%; height:50%;">
+
+    
+
+    <!-- Centered Search Bar -->
+    <div class=" search-bar d-none d-lg-flex mx-auto" style="width: 30%;">
+      <form class="d-flex w-100">
         <input class="form-control" type="search" placeholder="&#xf002; Search..." aria-label="Search" style="font-family:Arial, FontAwesome">
       </form>
     </div>
 
-  
-  <!-- Nav Links -->
-    <div class="navbar-collapse justify-content-end me-4 custom-nav-spacing">
+    <!-- Nav Links on the Right -->
+    <div class="d-none d-lg-flex justify-content-end ms-auto">
       <ul class="navbar-nav nav-holder d-flex flex-row">
         <li class="nav-item"><a class="nav-link" href="#teams"><i class="fa-solid fa-trophy"></i> Teams</a></li>
         <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-star"></i> Rewards</a></li>
@@ -67,16 +59,42 @@
         <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
       </ul>
     </div>
- <!-- Mobile Search Bar (only shows on small screens) -->
- <div class="search-bar w-60 d-block d-lg-none px-4 pt-3">
-  <form class="d-flex" style="width: 100%; height: 50px;">
-    <input class="form-control" type="search" placeholder="&#xf002; Search..." aria-label="Search" style="font-family:Arial, FontAwesome">
-  </form>
-</div>
 
-
+   <!-- Mobile Layout -->
+   <div class="d-block d-lg-none w-100">
+    <!-- Small Logo for Mobile -->
+    <div class="text-center">
+      <a href="#">
+        <img 
+          src="https://www.alumnihall.com/cms/default/assets/Image/logo.png" 
+          alt="Mobile Logo" 
+          style="height: 80px;"
+        >
+      </a>
     </div>
-  </nav>
+    
+    <!-- Mobile Search -->
+    <div class="search-bar w-100 px-4 pt-3">
+      <form class="d-flex" style="width: 100%; height: 50px;">
+        <input class="form-control" type="search" placeholder="&#xf002; Search..." aria-label="Search" style="font-family:Arial, FontAwesome">
+      </form>
+    </div>
+
+    <!-- Mobile Nav Links -->
+    <div class="pt-2 text-center ">
+      <ul class="navbar-nav d-flex flex-row justify-content-center flex-wrap">
+        <li class="nav-item"><a class="nav-link" href="#teams"><i class="fa-solid fa-trophy"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-star"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-credit-card"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-user"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  </div>
+</nav>
+
   
   
 
@@ -113,14 +131,23 @@
 </div>
 
     <!-- Promo Section -->
-    <div class="container my-2 promo-section">
-        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-4 text-center">
-          <div class="col"><img src="https://www.alumnihall.com/cms/default/assets/Image/homebopis.png" class="img-fluid" alt="Buy Now & Pick Up Today"></div>
-          <div class="col"><img src="https://www.alumnihall.com/cms/default/assets/Image/homeemail.png" class="img-fluid " alt="Email Sign-Up"></div>
-          <div class="col"><img src="https://www.alumnihall.com/cms/default/assets/Image/homegcs.png" class="img-fluid " alt="Gift Cards"></div>
-          <div class="col"><img src="https://www.alumnihall.com/cms/default/assets/Image/homehpr.png" class="img-fluid " alt="Hall Pass Rewards"></div>
-        </div>
-      </div>
+<div class="container my-2 promo-section">
+  <div class="row row-cols-4 g-4 text-center">
+    <div class="col">
+      <img src="https://www.alumnihall.com/cms/default/assets/Image/homebopis.png" class="img-fluid" alt="Buy Now & Pick Up Today">
+    </div>
+    <div class="col">
+      <img src="https://www.alumnihall.com/cms/default/assets/Image/homeemail.png" class="img-fluid" alt="Email Sign-Up">
+    </div>
+    <div class="col">
+      <img src="https://www.alumnihall.com/cms/default/assets/Image/homegcs.png" class="img-fluid" alt="Gift Cards">
+    </div>
+    <div class="col">
+      <img src="https://www.alumnihall.com/cms/default/assets/Image/homehpr.png" class="img-fluid" alt="Hall Pass Rewards">
+    </div>
+  </div>
+</div>
+
 
       <!-- Deals -->
       <div class="container my-4 promo-section">
@@ -142,7 +169,7 @@
           
           <div class="card-body">
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/Team_Alabama(Crimson_Tide)_Button.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">Alabama Crimson Tide</h5>  
+            <h5 class="card-title d-none d-lg-block">Alabama Crimson Tide</h5>  
         </div>
         </div>
       </div>
@@ -152,7 +179,7 @@
           
           <div class="card-body">
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/TeamLogos/App-State-Logo.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">App State Mountaineers</h5>  
+            <h5 class="card-title d-none d-lg-block">App State Mountaineers</h5>  
         </div>
         </div>
       </div>
@@ -162,7 +189,7 @@
           
           <div class="card-body">
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/arkansaslogo_71x71.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">Arkansas Razorbacks</h5>  
+            <h5 class="card-title d-none d-lg-block">Arkansas Razorbacks</h5>  
         </div>
         </div>
       </div>
@@ -172,7 +199,7 @@
           
           <div class="card-body">
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/auburnlogo.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">Auburn Tigers</h5>  
+            <h5 class="card-title d-none d-lg-block">Auburn Tigers</h5>  
         </div>
         </div>
       </div>
@@ -182,7 +209,7 @@
           
           <div class="card-body">
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/Clemson_Dropdown.jpg" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">Clemson Tigers</h5>  
+            <h5 class="card-title d-none d-lg-block">Clemson Tigers</h5>  
         </div>
         </div>
       </div>
@@ -193,7 +220,7 @@
           <div class="card-body">
             
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/ELogo2.jpg" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">ETSU Buccaneers</h5>  
+            <h5 class="card-title d-none d-lg-block">ETSU Buccaneers</h5>  
         </div>
         </div>
       </div>
@@ -204,7 +231,7 @@
           <div class="card-body">
             
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/TeamLogos/UF-logo.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">Florida Gators</h5>  
+            <h5 class="card-title d-none d-lg-block">Florida Gators</h5>  
         </div>
         </div>
       </div>
@@ -215,7 +242,7 @@
           <div class="card-body">
             
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/floridastatelogo.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">Florida State Seminoles</h5>  
+            <h5 class="card-title d-none d-lg-block">Florida State Seminoles</h5>  
         </div>
         </div>
       </div>
@@ -226,7 +253,7 @@
           <div class="card-body">
             
             <a href="georgia.html" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/georgialogo.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">Georgia Bulldogs</h5>  
+            <h5 class="card-title d-none d-lg-block">Georgia Bulldogs</h5>  
         </div>
         </div>
       </div>
@@ -237,7 +264,7 @@
           <div class="card-body">
             
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/TeamLogos/Indiana-Hoosiers.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">Indiana Hoosiers</h5>  
+            <h5 class="card-title d-none d-lg-block">Indiana Hoosiers</h5>  
         </div>
         </div>
       </div>
@@ -248,7 +275,7 @@
           <div class="card-body">
             
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/NewUKLogo.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">Kentucky Wildcats</h5>  
+            <h5 class="card-title d-none d-lg-block">Kentucky Wildcats</h5>  
         </div>
         </div>
       </div>
@@ -259,7 +286,7 @@
           <div class="card-body">
             
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/TeamLogos/LSU-logo.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">LSU Tigers</h5>  
+            <h5 class="card-title d-none d-lg-block">LSU Tigers</h5>  
         </div>
         </div>
       </div>
@@ -270,7 +297,7 @@
           <div class="card-body">
             
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/Michstate.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">Michigan State Spartans</h5>  
+            <h5 class="card-title d-none d-lg-block">Michigan State Spartans</h5>  
         </div>
         </div>
       </div>
@@ -281,7 +308,7 @@
           <div class="card-body">
             
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/mtsulogo.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">MTSU Blue Raiders</h5>  
+            <h5 class="card-title d-none d-lg-block">MTSU Blue Raiders</h5>  
         </div>
         </div>
       </div>
@@ -292,7 +319,7 @@
           <div class="card-body">
             
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/TeamLogos/MS-dropdown-logo.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">Mississippi State Bulldogs</h5>  
+            <h5 class="card-title d-none d-lg-block">Mississippi State Bulldogs</h5>  
         </div>
         </div>
       </div>
@@ -303,7 +330,7 @@
           <div class="card-body">
             
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/TeamLogos/Neb-logo.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">Nebraska Cornhuskers</h5>  
+            <h5 class="card-title d-none d-lg-block">Nebraska Cornhuskers</h5>  
         </div>
         </div>
       </div>
@@ -314,7 +341,7 @@
           <div class="card-body">
             
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/UncDropDown.jpg" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">North Carolina Tar Heels</h5>  
+            <h5 class="card-title d-none d-lg-block">North Carolina Tar Heels</h5>  
         </div>
         </div>
       </div>
@@ -324,7 +351,7 @@
           
           <div class="card-body">
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/TeamLogos/tennessee-volunteers.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">Tennessee Volunteers</h5>  
+            <h5 class="card-title d-none d-lg-block">Tennessee Volunteers</h5>  
         </div>
         </div>
       </div>
@@ -335,7 +362,7 @@
           <div class="card-body">
             
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/TeamLogos/centralflorida.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">UCF Knights</h5>  
+            <h5 class="card-title d-none d-lg-block">UCF Knights</h5>  
         </div>
         </div>
       </div>
@@ -346,7 +373,7 @@
           <div class="card-body">
             
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/TeamLogos/virginiadropdown.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">Virginia Cavaliers</h5>  
+            <h5 class="card-title d-none d-lg-block">Virginia Cavaliers</h5>  
         </div>
         </div>
       </div>
@@ -357,7 +384,7 @@
           <div class="card-body">
             
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/VTlogo2.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">Virginia Tech Hokies</h5>  
+            <h5 class="card-title d-none d-lg-block">Virginia Tech Hokies</h5>  
         </div>
         </div>
       </div>
@@ -368,7 +395,7 @@
           <div class="card-body">
             
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/TeamLogos/wv-navy.jpg" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">West Virginia Mountaineers</h5>  
+            <h5 class="card-title d-none d-lg-block">West Virginia Mountaineers</h5>  
         </div>
         </div>
       </div>
@@ -379,7 +406,7 @@
           <div class="card-body">
             
             <a href="#" class="btn"><img src="https://www.alumnihall.com/cms/default/assets/Image/westernkentuckylogo.png" class="card-img-top mx-auto mt-0" alt="Team Logo"></a>
-            <h5 class="card-title">Western Kentucky</h5>  
+            <h5 class="card-title d-none d-lg-block">Western Kentucky</h5>  
         </div>
         </div>
       </div>
