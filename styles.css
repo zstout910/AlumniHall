@@ -122,6 +122,13 @@
     border-radius: 50%;
     padding: 1rem;
   }
+
+
+  #mobileNewItemsCarousel {
+    border-top: 10px solid var(--secondary-color);
+    border-bottom: 10px solid var(--secondary-color);
+    margin-bottom: 20px;
+  }
   
   /* Button bounce effect */
   @keyframes bounce {
@@ -163,7 +170,12 @@
   
   .promo-section img {
     border: var(--secondary-color) 8px solid;
-    border-radius: 20px ;
+    border-radius: 20px;
+  }
+
+  .promo2-section img {
+    border: var(--secondary-color) 8px solid;
+    border-radius: 20px;
   }
 
   .brand-strip {
@@ -212,11 +224,37 @@
 
   @media (max-width: 768px) {
     .promo-section img {
-      border-width: 5px; /* Smaller border on small screens */
+      border-width: 4px; /* Smaller border on small screens */
+      border-radius: 10px;
+      scale: 110%;
+      
+
+    }
+  }
+
+  @media (max-width: 768px) {
+    .promo2-section img {
+      border-width: 4px; /* Smaller border on small screens */
+      border-radius: 10px;
+      
 
     }
   }
  
+  /* Make announcement smaller on small screens */
+.small-screen-announcement {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .small-screen-announcement {
+    font-size: 0.75rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    line-height: 1.2;
+  }
+}
+
  
 
   
