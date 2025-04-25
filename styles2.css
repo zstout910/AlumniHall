@@ -145,4 +145,13 @@
     background-color: var(--primary-color);
   }
 
+  @media (max-width: 768px) {
+    .small-screen-announcement {
+      font-size: 0.75rem;
+      padding-top: 0.3rem;
+      padding-bottom: 0.3rem;
+      line-height: 1.2;
+    }
+  }
+
   
