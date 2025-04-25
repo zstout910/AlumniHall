@@ -89,9 +89,24 @@
     display: block; /* Removes small bottom gap caused by inline images */
     margin: 0;
     padding: 0;
-    border-bottom: var(--accent-color) 7px solid;
   }
 
+  .nav2 {
+    background-color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .dropdown .btn{
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    font-style: var(--font-family);
+    font-weight: bolder;
+    border: 5px solid var(--accent-color);
+    border-radius: 20px;
+    
+  }
   .card-top {
     border: var(--primary-color) 6px solid;
     border-radius: 20px;
